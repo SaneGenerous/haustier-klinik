@@ -1,4 +1,4 @@
-package org.tp.haustierklinik;
+package org.tp.haustierklinikweb;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
