@@ -1,5 +1,5 @@
 package org.tp.haustierklinikdata.model;
 
-public class Pet {
+public class Pet extends BaseEntity{
     private PetType petType;
 }
