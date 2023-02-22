@@ -1,11 +1,11 @@
 package org.tp.haustierklinikdata.services.map;
 
 import org.tp.haustierklinikdata.model.Vet;
-import org.tp.haustierklinikdata.services.CrudService;
+import org.tp.haustierklinikdata.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
         return super.findAll();
