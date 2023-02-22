@@ -1,4 +1,4 @@
-package org.tp.haustierklinikdata.model;
+package org.tp.haustierklinik.model;
 
 public class Person extends BaseEntity{
     private String firstName;

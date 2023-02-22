@@ -1,4 +1,4 @@
-package org.tp.haustierklinikdata;
+package org.tp.haustierklinik;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

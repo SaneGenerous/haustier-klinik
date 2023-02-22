@@ -1,4 +1,4 @@
-package org.tp.haustierklinikdata.services.map;
+package org.tp.haustierklinik.services.map;
 
 import java.util.HashMap;
 import java.util.HashSet;

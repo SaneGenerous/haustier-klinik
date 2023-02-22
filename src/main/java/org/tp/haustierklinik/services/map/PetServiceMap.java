@@ -1,10 +1,11 @@
-package org.tp.haustierklinikdata.services.map;
+package org.tp.haustierklinik.services.map;
 
-import org.tp.haustierklinikdata.model.Pet;
-import org.tp.haustierklinikdata.services.PetService;
+import org.springframework.stereotype.Service;
+import org.tp.haustierklinik.model.Pet;
+import org.tp.haustierklinik.services.PetService;
 
 import java.util.Set;
-
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
     @Override
     public Set<Pet> findAll() {

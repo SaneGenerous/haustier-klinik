@@ -1,4 +1,4 @@
-package org.tp.haustierklinikdata.services;
+package org.tp.haustierklinik.services;
 
 import java.util.Set;
 

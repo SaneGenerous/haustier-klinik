@@ -1,10 +1,11 @@
-package org.tp.haustierklinikdata.services.map;
+package org.tp.haustierklinik.services.map;
 
-import org.tp.haustierklinikdata.model.Owner;
-import org.tp.haustierklinikdata.services.OwnerService;
+import org.springframework.stereotype.Service;
+import org.tp.haustierklinik.model.Owner;
+import org.tp.haustierklinik.services.OwnerService;
 
 import java.util.Set;
-
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
     @Override
     public Set<Owner> findAll() {

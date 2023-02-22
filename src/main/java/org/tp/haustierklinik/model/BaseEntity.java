@@ -1,4 +1,4 @@
-package org.tp.haustierklinikdata.model;
+package org.tp.haustierklinik.model;
 
 import java.io.Serializable;
 
