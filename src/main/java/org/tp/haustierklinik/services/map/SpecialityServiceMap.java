@@ -1,10 +1,11 @@
 package org.tp.haustierklinik.services.map;
 
+import org.springframework.stereotype.Service;
 import org.tp.haustierklinik.model.Speciality;
 import org.tp.haustierklinik.services.SpecialitiesService;
 
 import java.util.Set;
-
+@Service
 public class SpecialityServiceMap extends AbstractMapService<Speciality, Long> implements SpecialitiesService {
     @Override
     public Set<Speciality> findAll() {
