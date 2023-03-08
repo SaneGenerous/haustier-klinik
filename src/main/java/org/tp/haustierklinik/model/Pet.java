@@ -3,11 +3,15 @@ package org.tp.haustierklinik.model;
 import jakarta.persistence.*;
 
 import java.time.LocalDate;
+import java.util.HashSet;
+import java.util.Set;
+
 @Entity
 @Table(name = "pets")
 public class Pet extends BaseEntity{
     @Column(name = "name")
     private String name;
+    @OneToOne
     @JoinColumn(name = "type_id")
     private PetType petType;
     @ManyToOne
@@ -15,6 +19,8 @@ public class Pet extends BaseEntity{
     private Owner owner;
     @Column(name = "birth_date")
     private LocalDate birthDate;
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "pet")
+    private Set<Visit> visits = new HashSet<>();
 
     public LocalDate getBirthDate() {
         return birthDate;
@@ -38,5 +44,13 @@ public class Pet extends BaseEntity{
 
     public void setPetType(PetType petType) {
         this.petType = petType;
+    }
+
+    public Set<Visit> getVisits() {
+        return visits;
+    }
+
+    public void setVisits(Set<Visit> visits) {
+        this.visits = visits;
     }
 }
