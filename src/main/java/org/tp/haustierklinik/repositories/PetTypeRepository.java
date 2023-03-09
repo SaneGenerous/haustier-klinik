@@ -1,7 +1,7 @@
 package org.tp.haustierklinik.repositories;
 
 import org.springframework.data.repository.CrudRepository;
-import org.tp.haustierklinik.model.Pet;
+import org.tp.haustierklinik.model.PetType;
 
-public interface PetTypeRepository extends CrudRepository<Pet, Long> {
+public interface PetTypeRepository extends CrudRepository<PetType, Long> {
 }
