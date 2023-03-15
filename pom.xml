@@ -11,7 +11,6 @@
     <groupId>org.tp</groupId>
     <artifactId>haustier-klinik</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-
     <name>haustier-klinik</name>
     <description>haustier-klinik</description>
     <properties>
